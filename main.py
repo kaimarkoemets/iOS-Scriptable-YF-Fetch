@@ -4,7 +4,7 @@ import os
 import json
 import datetime
 
-loosers_url = 'https://finance.yahoo.com/losers/'
+loosers_url = 'https://finance.yahoo.com/most-active/'
 loosers_response = requests.get(loosers_url)
 loosers_page = BeautifulSoup(loosers_response.text, 'html.parser')
 loosers_table = loosers_page.find('tbody')
