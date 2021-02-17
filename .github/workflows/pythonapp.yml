@@ -35,4 +35,4 @@ jobs:
         git config --local user.name "GitHub Action"
         git add docs/result.json -f
         git commit -m "Update docs/result.json" -a
-        git push "https://makma:${{ secrets.GITHUB_PERSONAL_TOKEN }}@github.com/makma/scriptable-stocks.git" HEAD:main --follow-tags
+        git push "https://kaimarkoemets:${{ secrets.GITHUB_PERSONAL_TOKEN }}@github.com/kaimarkoemets/iOS-Scriptable-YF-Fetch.git" HEAD:main --follow-tags
