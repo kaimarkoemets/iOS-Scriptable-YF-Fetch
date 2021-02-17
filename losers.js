@@ -1,7 +1,7 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: red; icon-glyph: magic;
-const dataUrl = "https://makma.github.io/scriptable-stocks/result.json";
+const dataUrl = "https://kaimarkoemets.github.io/iOS-Scriptable-YF-Fetch/result.json";
 
 let widget = await createWidget();
 Script.setWidget(widget);
